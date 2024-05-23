@@ -1,0 +1,169 @@
+.autoHeight {
+    display: block
+}
+
+.red.tui-grid-cell {
+    background-color: #ffe8e8 !important;
+}
+
+.checked.tui-grid-cell {
+    background-color: aliceblue;
+}
+
+.gray.tui-grid-cell {
+    background-color: #E6EAED;
+}
+
+.yellow.tui-grid-cell {
+    background-color: #fffacf;
+}
+
+.lightGreen.tui-grid-cell {
+    background-color: #E3FFDC;
+}
+
+.green.tui-grid-cell {
+    background-color: #BFFFB8;
+}
+
+.sellerRow.tui-grid-cell {
+    color: #FFFFFF;
+    background-color: #666666 !important;
+    border: hidden;
+}
+
+.tui-grid-layer-state {
+    border-left: solid 1px gainsboro;
+}
+
+.tui-grid-layer-state p {
+    top: 10%;
+    color: black;
+}
+
+.ui-select.active {
+    z-index: 3;
+}
+
+.ui-select.active > ul {
+    display: block;
+}
+
+.ui-select.active > button {
+    border-color: #666666;
+}
+
+.ui-select.active > button:before {
+    transform: rotate(180deg);
+}
+
+.ui-select > button {
+    font-size: 14px;
+    overflow: hidden;
+    width: 100%;
+    height: 25px;
+    padding: 0;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #999999;
+    border: 1px solid #d6d6d6;
+    background: #ffffff;
+}
+
+/* 2020-09-16 */
+.ui-select > button:focus {
+    border: 1px solid #666666;
+}
+
+.ui-select > button:before {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+
+    display: block;
+
+    width: 9px;
+    height: 5px;
+    margin-top: -2.5px;
+
+    content: "";
+    transform: rotate(0deg);
+}
+
+.ui-select > button:disabled {
+    background-color: #eeeeee;
+}
+
+.ui-select > ul {
+    display: none;
+    position: absolute;
+    overflow-y: auto;
+    z-index: 1000;
+    box-sizing: border-box;
+    width: 91px;
+    max-height: 205px;
+
+    border-top: none;
+    border-right: 1px solid #666666;
+    border-bottom: 1px solid #666666;
+    border-left: 1px solid #666666;
+    background-color: #ffffff;
+}
+
+.ui-select > ul.above {
+    border-top-width: 0;
+}
+
+.ui-select > ul.above > li {
+    border-bottom: 0;
+}
+
+.ui-select > ul > li {
+    font-size: 13px;
+    line-height: 30px;
+
+    padding: 5px 16px;
+
+    cursor: pointer;
+    text-align: left;
+
+    color: #666666;
+}
+
+.ui-select > ul > li:first-child {
+    border-color: #d6d6d6;
+}
+
+.ui-select > ul > li:hover {
+    color: #333333;
+}
+
+.ui-select.disabled:before {
+    position: absolute;
+
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+
+    width: 1px;
+    height: 1px;
+
+    content: "비 활성화된 항목입니다";
+}
+
+.ui-select.disabled > button {
+    color: #444444;
+    background-color: #cccccc;
+}
+
+/* td p.addIn span, p p.addIn span { */
+/*     top: -4px; */
+/* } */
+
+.eProductImgUrl:hover {
+    cursor: pointer;
+}
+
+.tui-grid-layer-focus-deactive .tui-grid-layer-focus-border{
+    background-color: unset !important;
+}
